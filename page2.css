@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #4e3ca9;
+    color: white;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #4e3ca9 0%, #2b2b5e 100%);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.header, .search-bar, .balance, .action-buttons, .transactions, .footer {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .time {
+    font-size: 16px;
+}
+
+.header .status-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.status-icons span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar .profile-icon {
+    width: 30px;
+    height: 30px;
+    background: grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.search-bar .icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons span {
+    width: 20px;
+    height: 20px;
+    background: grey;
+    border-radius: 50%;
+}
+
+.balance {
+    text-align: center;
+}
+
+.balance p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.balance h1 {
+    margin: 5px 0;
+    font-size: 48px;
+}
+
+.balance button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #7371fc;
+    color: white;
+    cursor: pointer;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-buttons button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #5a58db;
+    color: white;
+    cursor: pointer;
+}
+
+.transactions {
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.transaction img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.transaction div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.transaction p {
+    margin: 0;
+}
+
+.see-all {
+    background: none;
+    border: none;
+    color: #4e3ca9;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: #2b2b5e;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+.footer button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
